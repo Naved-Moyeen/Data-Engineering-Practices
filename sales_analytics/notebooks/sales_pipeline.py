@@ -14,6 +14,7 @@ sys.path.insert(0, str(project_root))
 from src.main import run_pipeline
 
 pipeline_summary = run_pipeline(spark)
+#Pipeline Summary
 print(pipeline_summary)
 
 # COMMAND ----------
